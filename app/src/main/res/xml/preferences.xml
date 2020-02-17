@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/pref_key_notification"
+        android:title="@string/pref_title_notifications" />
+    <ListPreference
+        android:entries="@array/locations"
+        android:entryValues="@array/locations"
+        android:key="@string/str_location"
+        android:title="@string/str_title_location" />
+</PreferenceScreen>

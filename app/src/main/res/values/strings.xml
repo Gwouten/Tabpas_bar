@@ -6,4 +6,8 @@
     <string name="str_info_title">Info</string>
     <string name="str_order_title">Place order</string>
     <string name="str_btn_order">Confirm</string>
+    <string name="pref_title_notifications">Receive notifications</string>
+    <string name="pref_key_notification">pref_notification</string>
+    <string name="str_location">locations</string>
+    <string name="str_title_location">Pick a location to deliver from</string>
 </resources>

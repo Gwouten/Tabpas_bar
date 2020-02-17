@@ -8,13 +8,14 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import be.ehb.tabpasbar.fragments.InfoFragment;
 import be.ehb.tabpasbar.fragments.OrderFragment;
+import be.ehb.tabpasbar.fragments.PrefFragment;
 
 /**
  * Created by Banaan on 20/01/2038. ;)
  */
 public class TabPagerAdapter extends FragmentPagerAdapter {
 
-    private Fragment[] fragments = { InfoFragment.newInstance(), OrderFragment.newInstance()};
+    private Fragment[] fragments = { InfoFragment.newInstance(), OrderFragment.newInstance(), PrefFragment.newInstance()};
 
     public TabPagerAdapter(@NonNull FragmentManager fm, int behavior) {
         super(fm, behavior);
@@ -38,6 +39,6 @@ public class TabPagerAdapter extends FragmentPagerAdapter {
             return "Info";
         if(position == 1)
             return "Order";
-        return "";
+        return "Settings";
     }
 }
